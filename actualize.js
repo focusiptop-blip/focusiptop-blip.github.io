@@ -17,7 +17,7 @@
 
   // Домены ASG по порядку предпочтения: первый доступный зрителю станет рабочим.
   // Старые (заблокированные) оставляйте в списке — фреймы с ними тоже переведутся на рабочий.
-  var DOMAINS = ['asg.test-news.sbs', 'asg.gokino.top'];
+  var DOMAINS = ['asgold.work', 'asg.test-news.sbs', 'asg.gokino.top'];
   // Только домены из списка, только страницы плеера — чужие фреймы не трогаем
   var PATH = /^\/(watch\/\d|embed\/kp\/\d|s\/)/;
   var KEY = 'asg.actualDomain';
